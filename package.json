@@ -1,15 +1,15 @@
 {
   "name": "cs311-flashcard-system",
-  "homepage": "https://Lukas-Maynard.github.io/cs322-flashcard-system",
   "version": "0.1.0",
+  "homepage": "https://Lukas-Maynard.github.io/cs322-flashcard-system",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.16",
