@@ -1,4 +1,5 @@
-import CardListingPage from './CardListingPage';
+"use client";
+import CardListingPage from '../CardListingPage';
 
 export default function CardsPage() {
   return (
