@@ -1,3 +1,15 @@
+# TODO
+- Replace api/getCards.js with testCards/page.tsx implementation
+- re-make add card system to actually add cards
+- do something with nextScheduledTime database column
+- create the main page showing cards
+    - create the east medium hard rating system
+    - show answer on click or something
+
+&nbsp;
+
+&nbsp;
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

@@ -10,7 +10,7 @@ export default async function TestCards() {
       <h1>Test Cards</h1>
       {rows.map((row) => (
           <div key={row.id}>
-            {row.id} - {row.prompt} - {row.answer} - {row.understood}%
+            {row.id} - {row.prompt} - {row.answer} - %{row.understood} - {row.nextScheduledTime}
           </div>
         ))}
     </div>
