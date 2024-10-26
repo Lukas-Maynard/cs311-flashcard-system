@@ -13,5 +13,5 @@ model cards {
   prompt            String
   answer            String
   understood        Int?      @default(0)
-  nextscheduledtime DateTime? @db.Timestamp(6)
+  nextscheduledtime DateTime?
 }

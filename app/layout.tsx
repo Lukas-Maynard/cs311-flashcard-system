@@ -21,8 +21,6 @@ export default function RootLayout({
           <br></br>
           <Link href="/addCard">Add Card</Link>
           <br></br>
-          <Link href="/testCards">Test Cards</Link>
-          <br></br>
           <br></br>
         </nav>
         {children}
