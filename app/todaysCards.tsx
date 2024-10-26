@@ -13,7 +13,7 @@ export default async function TestCards() {
           </div>
         ))
       ) : (
-        <p>You're done learning for now! No cards to view, Come back later.</p>
+        <p>You&apos;re done learning for now! No cards to view, Come back later.</p>
       )}
     </div>
   );
