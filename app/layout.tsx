@@ -13,17 +13,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        <nav>
-          <Link href="/">Home</Link>
-          <br></br>
-          <Link href="/cards">Cards</Link>
-          <br></br>
-          <Link href="/addCard">Add Card</Link>
-          <br></br>
-          <br></br>
+      <body className="antialiased bg-gray-100 text-gray-900">
+        <nav className="bg-blue-600 p-4 shadow-md">
+          <ul className="flex space-x-6">
+            <li>
+              <Link href="/" className="text-white hover:text-yellow-300">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/cards" className="text-white hover:text-yellow-300">
+                Cards
+              </Link>
+            </li>
+            <li>
+              <Link href="/addCard" className="text-white hover:text-yellow-300">
+                Add Card
+              </Link>
+            </li>
+          </ul>
         </nav>
-        {children}
+        <main className="p-6">{children}</main>
       </body>
     </html>
   );
