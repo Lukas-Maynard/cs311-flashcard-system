@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { sql } from '@vercel/postgres';
 
 export default async function TestCards() {
+  // shows cards that have a datetime before the current datetime
   const { rows } = await sql`SELECT * FROM cards WHERE nextScheduledTime < NOW()`;
 
   return (
